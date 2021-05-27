@@ -1,0 +1,103 @@
+header {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 8em;
+}
+
+.headline {
+    flex: 3;
+    text-align: center;
+}
+
+.bulk{
+    display: flex;
+    justify-content: space-around;
+    border: 1px dotted crimson;
+}
+
+.column{
+    border: 1px;
+}
+
+.fish{
+    border: 1px dotted crimson;
+}
+
+.fish_name{
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; 
+}
+
+.quotes{
+    border: 1px dotted crimson;
+}
+
+.quotes_word{
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; 
+}
+
+.locations{
+    border: 1px dotted crimson;
+}
+
+.locations_body{
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; 
+}
+
+.tips{
+    border: 1px dotted crimson;
+}
+
+.tank_tips{
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; 
+}
+
+
+/* 
+.left{
+    border: 1px solid green;
+    flex:3;
+}
+
+.right{
+    border: 1px solid green;
+    flex:1;
+}
+
+.fishlist{
+    border: 3px dotted forestgreen
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+}
+
+.fish{
+    flex: 1;
+}
+.quotelist{}
+
+.locations{}
+
+.tanktips{}
+
+*/
